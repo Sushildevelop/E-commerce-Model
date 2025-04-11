@@ -57,27 +57,8 @@ Postman for API testing
    npm start
    ```
 
-5. Open your browser and navigate to `http://localhost:3000` to access the application.
+5. Open your browser and navigate to `http://localhost:8000` to access the application.
 
-## Folder Structure
-
-```
-E-commerce-model/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── config/
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── redux/
-│   │   └── App.js
-├── README.md
-└── package.json
-```
 
 ## Contributing
 
