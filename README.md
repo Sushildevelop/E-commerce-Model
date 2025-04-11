@@ -10,13 +10,19 @@ This repository contains an implementation of an E-commerce model, designed to e
 - **Order Management**: Create and track customer orders, and manage order statuses.
 
 
-## Tech Stack
+🛠 Technologies Used
 
-- **Frontend**: React, Redux, Bootstrap/Material-UI
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB/PostgreSQL
-- **Authentication**: JSON Web Tokens (JWT)
-- **Payment Gateway**: Stripe, PayPal
+Node.js
+
+Express.js
+
+Sequelize ORM
+
+MySQL / PostgreSQL (or any SQL database)
+
+JWT (JSON Web Tokens) for authentication
+
+Postman for API testing
 
 ## Installation
 
