@@ -5,6 +5,7 @@ const { authorization } = require('../middleware/authToken')
 const { createproduct, updateProduct, deleteproduct, getProduct } = require('../controller/productController')
 const { addToCart } = require('../controller/cartController')
 const { createOrder, placeOrder } = require('../controller/orderController')
+const { createMapper } = require('../controller/cartItemsController')
 
 const router=express.Router()
 // User routes
@@ -30,6 +31,10 @@ router.post('/createcart',authorization,addToCart)
 
 router.post('/createOrder',authorization,createOrder)
 router.post('/placeorder',authorization,placeOrder)
+
+
+//CartItems
+router.post('/createcartitems',authorization,createMapper)
 
 
 module.exports={router}
